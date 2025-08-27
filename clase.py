@@ -21,8 +21,8 @@ class CircuitoParalelo(Circuito):
         return 1 / inversa_total if inversa_total != 0 else float('inf')
 
 
-print("=== Cálculo de Resistencia Total ===")
-tipo = input("¿Tipo de circuito? (serie/paralelo): ").lower()
+print("--- Cálculo de Resistencia Total ---")
+tipo = input("Tipo de circuito (serie/paralelo): ").lower()
 
 try:
     n = int(input("¿Cuántas resistencias vas a ingresar?: "))
